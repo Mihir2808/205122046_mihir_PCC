@@ -1,0 +1,94 @@
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc (master)
+$ git init
+Initialized empty Git repository in C:/Users/MIHIR/OneDrive/Desktop/pcc/.git/
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc (master)
+$ git clone https://github.com/Mihir2808/205122046_mihir_PCC.git
+Cloning into '205122046_mihir_PCC'...
+warning: You appear to have cloned an empty repository.
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        205122046_mihir_PCC/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc (master)
+$ cd 205122046_mihir_PCC/
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc/205122046_mihir_PCC (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        EVENT IDEA.pdf
+        mihir pcc.pdf
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc/205122046_mihir_PCC (main)
+$ git add .
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc/205122046_mihir_PCC (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   EVENT IDEA.pdf
+        new file:   mihir pcc.pdf
+
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc/205122046_mihir_PCC (main)
+$ git commit
+hint: Waiting for your editor to close the file...       0 [sig] bash 1756! sigpacket::process: Suppressing signal 18 to win32 process (pid 23888)
+Aborting commit due to empty commit message.
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc/205122046_mihir_PCC (main)
+$ git commit -m"commited"
+[main (root-commit) a4783bc] commited
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 EVENT IDEA.pdf
+ create mode 100644 mihir pcc.pdf
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc/205122046_mihir_PCC (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc/205122046_mihir_PCC (main)
+$ git push origin
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 520.35 KiB | 21.68 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Mihir2808/205122046_mihir_PCC.git
+ * [new branch]      main -> main
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc/205122046_mihir_PCC (main)
+$ git log
+commit a4783bc4b070d1e3e0090234ce165a848d554885 (HEAD -> main, origin/main)
+Author: mihir <mihirkathpal123@gmail.com>
+Date:   Sun Nov 6 22:15:42 2022 +0530
+
+    commited
+
+MIHIR@LAPTOP-VB1T7P22 MINGW64 ~/OneDrive/Desktop/pcc/205122046_mihir_PCC (main)
+$
